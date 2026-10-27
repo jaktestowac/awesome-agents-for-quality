@@ -1,0 +1,4 @@
+interface:
+  display_name: Verify acceptance criteria
+policy:
+  allow_implicit_invocation: false

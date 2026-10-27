@@ -1,0 +1,4 @@
+interface:
+  display_name: Design an LLM eval suite
+policy:
+  allow_implicit_invocation: false

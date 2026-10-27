@@ -1,0 +1,5 @@
+# Playwright MCP server: lets agents drive a real browser.
+# https://github.com/microsoft/playwright-mcp
+name: playwright
+command: npx
+args: ['@playwright/mcp@latest']

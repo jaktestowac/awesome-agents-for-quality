@@ -1,0 +1,162 @@
+{
+  "name": "jaktestowac",
+  "interface": {
+    "displayName": "Awesome Agents for Quality"
+  },
+  "plugins": [
+    {
+      "name": "qa-core",
+      "version": "0.1.0",
+      "description": "Test design, planning, exploratory testing, requirements traceability and bug reporting.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/qa-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "test-automation",
+      "version": "0.1.0",
+      "description": "Unit tests, TDD, Playwright, mocking, visual regression, migration and test code review.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/test-automation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "api-testing",
+      "version": "0.1.0",
+      "description": "API test automation with Playwright and contract testing.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/api-testing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "non-functional-testing",
+      "version": "0.1.0",
+      "description": "Accessibility, performance and load, and application security testing.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/non-functional-testing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ai-quality",
+      "version": "0.1.0",
+      "description": "Testing LLM features, guardrails, groundedness and agent skills.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ai-quality"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "quality-gates",
+      "version": "0.1.0",
+      "description": "Quality contracts, change gates, waivers, release readiness, metrics and debt.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/quality-gates"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "authoring",
+      "version": "0.1.0",
+      "description": "Creating skills, custom agents, commands and prompt files, instructions and rules, hooks, plugins and orchestration packs for GitHub Copilot, Claude Code and OpenAI Codex, plus auditing a whole collection. Each covers this repository's single-source format and your own project's native files.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/authoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "orchestration-basics",
+      "version": "0.1.0",
+      "description": "A minimal orchestrator with three read-mostly helpers (planner, explorer, analyst) that shows how to split analysis and planning across subagents to save context, with stop gates for the user. Start here to learn the pattern; it does not implement code. For a pipeline that also implements, reviews and commits, use plan-explore-review-commit.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/orchestration-basics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "plan-explore-review-commit",
+      "version": "0.1.0",
+      "description": "A full delivery pipeline: a planner and an orchestrator drive architect, researcher, explorer, implementer, QA strategy, security, code review and docs subagents through small test-first phases, with a review and a user-approved commit after each. Pick it for multi-phase feature or refactoring work; for analysis and planning only, use orchestration-basics.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/plan-explore-review-commit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ui-api-automation",
+      "version": "0.1.0",
+      "description": "Explores an application (frontend through Playwright MCP, backend through its OpenAPI spec), plans coverage, implements UI and API tests, reviews them and runs them to a verified result. Pick it for a full suite with a review and verification stage; for a small first batch of tests, or a project that still needs a test framework set up, use ui-api-automation-minimal.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ui-api-automation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ui-api-automation-minimal",
+      "version": "0.1.0",
+      "description": "A compact UI + API pack with four helpers: explore (OpenAPI and/or Playwright MCP), plan, set up a test framework if none exists, and implement tests, each returning the same handoff packet. Pick it for a small first batch of tests or a project without a test framework; for a full suite with review and verification stages, use ui-api-automation.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ui-api-automation-minimal"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

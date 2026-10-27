@@ -1,0 +1,4 @@
+interface:
+  display_name: Generate a basic test plan
+policy:
+  allow_implicit_invocation: false

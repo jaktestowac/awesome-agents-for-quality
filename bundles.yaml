@@ -1,0 +1,150 @@
+# Plugins published to every host. Each skill belongs to exactly one bundle.
+# Assignments are the first cut from awesome-copilot-for-testers and are expected to change.
+
+qa-core:
+  icon: 🧭
+  description: Test design, planning, exploratory testing, requirements traceability and bug reporting.
+  skills:
+    - designing-functional-tests
+    - designing-test-data
+    - handling-sensitive-test-data
+    - planning-exploratory-testing
+    - requirements-test-coverage-mapper
+    - tracing-requirements-to-code
+    - verifying-acceptance-criteria
+    - reporting-bugs
+    - communicating-quality-findings
+    - documenting-test-suites
+    - prd-generator
+  commands:
+    - create-test-plan
+    - test-plan-basic
+    - qa-strategy
+    - review-requirements
+    - regression-scope
+    - manual-test-cases
+    - derive-test-cases-from-code
+    - generate-gherkin-scenarios
+    - generate-exploratory-charters
+    - generate-test-data
+    - map-requirements-coverage
+    - verify-acceptance-criteria
+    - bug-report
+    - explain-code
+    - edge-case-scenario-generator
+  agents: [qa-strategist, test-planner, rubber-duck, ai-architect]
+  guides: [beyond-codegen]
+
+test-automation:
+  icon: 🤖
+  description: Unit tests, TDD, Playwright, mocking, visual regression, migration and test code review.
+  skills:
+    - writing-unit-tests
+    - writing-unit-tests-quick
+    - test-driven-development
+    - test-driven-development-quick
+    - mocking-network-and-time
+    - migrating-tests-to-playwright
+    - running-visual-regression-tests
+    - stabilizing-flaky-tests
+    - diagnosing-test-failures
+    - automating-ci-test-pipelines
+    - designing-test-automation-architecture
+    - unslop-tests
+    - code-review
+    - code-review-advanced
+    - static-code-analysis-typescript
+  commands:
+    - fix-tests
+    - explain-test-failure
+    - analyze-test-results
+    - stabilize-flaky-tests
+    - test-generator
+    - playwright-generate-test
+    - playwright-explore-website
+    - playwright-explore-website-requests
+    - refactor-to-page-objects
+    - migrate-tests-to-playwright
+    - tech-debt-audit
+  agents: [test-automation-expert, playwright-automation-engineer-ts, playwright-automation-engineer-ts-detailed, ui-test-automation, test-code-reviewer]
+  mcp: [playwright]
+
+api-testing:
+  icon: 🔌
+  description: API test automation with Playwright and contract testing.
+  skills:
+    - api-playwright-test-developer
+    - testing-api-contracts
+  commands:
+    - api-test-plan-and-tests
+  agents: [api-test-automation-openapi, openapi-test-automation-expert]
+
+non-functional-testing:
+  icon: ⚡
+  description: Accessibility, performance and load, and application security testing.
+  skills:
+    - auditing-accessibility
+    - testing-performance-and-load
+    - testing-application-security
+  commands:
+    - a11y-webpage-audit
+    - a11y-audit-deep-dive
+    - performance-reliability-plan
+  agents: [accessibility-expert]
+  mcp: [playwright]
+
+ai-quality:
+  icon: 🧠
+  description: Testing LLM features, guardrails, groundedness and agent skills.
+  skills:
+    - testing-llm-features
+    - testing-llm-guardrails
+    - reviewing-ai-output-groundedness
+    - testing-agent-skills
+    - unslop-answers
+  commands:
+    - design-llm-eval-suite
+    - test-llm-guardrails
+  agents: [llm-feature-test-engineer]
+  guides: [ai-product-qa]
+
+quality-gates:
+  icon: 🚦
+  description: Quality contracts, change gates, waivers, release readiness, metrics and debt.
+  skills:
+    - deriving-a-quality-contract
+    - governing-quality-waivers
+    - scoping-change-relevance
+    - recording-change-intent
+    - verifying-change-coverage
+    - analyzing-regression-scope
+    - generating-quality-gate-workflows
+    - assessing-release-readiness
+    - assessing-comprehension-debt
+    - attesting-manual-verification
+    - analyzing-quality-metrics
+    - tracking-quality-trends
+    - tech-debt-analysis
+  commands:
+    - derive-quality-contract
+    - scope-change-gate
+    - record-change-intent
+    - audit-quality-debt
+  agents: [change-gate-reviewer, quality-contract-architect, quality-debt-auditor, tech-debt-auditor]
+  guides: [quality-governance]
+
+authoring:
+  icon: 🛠️
+  description: Creating skills, custom agents, commands and prompt files, instructions and rules, hooks, plugins and orchestration packs for GitHub Copilot, Claude Code and OpenAI Codex, plus auditing a whole collection. Each covers this repository's single-source format and your own project's native files.
+  skills:
+    - creating-skills
+    - creating-custom-agents
+    - creating-prompts
+    - creating-instructions
+    - creating-hooks
+    - creating-plugins
+    - creating-orchestration-packs
+  commands:
+    - create-skill
+    - audit-collection-health
+  agents: [skill-librarian]

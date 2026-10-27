@@ -1,0 +1,17 @@
+{
+  "name": "print-tool-info",
+  "version": "0.1.0",
+  "description": "Shows the tool name, arguments, time and working directory before each tool call. Useful for learning how hooks work and for debugging what an agent does.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "testing",
+    "quality-engineering"
+  ]
+}

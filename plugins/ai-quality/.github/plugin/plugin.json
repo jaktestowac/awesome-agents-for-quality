@@ -1,0 +1,29 @@
+{
+  "name": "ai-quality",
+  "version": "0.1.0",
+  "description": "Testing LLM features, guardrails, groundedness and agent skills.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "quality-engineering",
+    "quality"
+  ],
+  "agents": [
+    "./.github/agents/"
+  ],
+  "skills": [
+    "./skills/testing-llm-features/",
+    "./skills/testing-llm-guardrails/",
+    "./skills/reviewing-ai-output-groundedness/",
+    "./skills/testing-agent-skills/",
+    "./skills/unslop-answers/",
+    "./skills/design-llm-eval-suite/",
+    "./skills/test-llm-guardrails/"
+  ]
+}

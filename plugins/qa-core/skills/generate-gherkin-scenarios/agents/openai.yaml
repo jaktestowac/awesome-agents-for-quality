@@ -1,0 +1,4 @@
+interface:
+  display_name: Generate Gherkin scenarios
+policy:
+  allow_implicit_invocation: false

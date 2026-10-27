@@ -1,0 +1,4 @@
+interface:
+  display_name: Tech debt audit - test automation code review
+policy:
+  allow_implicit_invocation: false

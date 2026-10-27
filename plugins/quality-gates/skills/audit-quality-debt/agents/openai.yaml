@@ -1,0 +1,4 @@
+interface:
+  display_name: Audit quality debt and silent skips
+policy:
+  allow_implicit_invocation: false

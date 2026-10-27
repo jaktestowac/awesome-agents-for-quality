@@ -1,0 +1,4 @@
+interface:
+  display_name: Edge Case Scenario Generator (BDD)
+policy:
+  allow_implicit_invocation: false

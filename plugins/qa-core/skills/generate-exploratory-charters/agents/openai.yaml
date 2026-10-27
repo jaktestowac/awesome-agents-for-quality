@@ -1,0 +1,4 @@
+interface:
+  display_name: Generate exploratory testing charters
+policy:
+  allow_implicit_invocation: false

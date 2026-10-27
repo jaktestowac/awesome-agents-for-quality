@@ -1,0 +1,4 @@
+interface:
+  display_name: Plan, explore, review, commit
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,29 @@
+{
+  "name": "non-functional-testing",
+  "version": "0.1.0",
+  "description": "Accessibility, performance and load, and application security testing.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "quality-engineering",
+    "non",
+    "functional"
+  ],
+  "agents": [
+    "./.github/agents/"
+  ],
+  "skills": [
+    "./skills/auditing-accessibility/",
+    "./skills/testing-performance-and-load/",
+    "./skills/testing-application-security/",
+    "./skills/a11y-webpage-audit/",
+    "./skills/a11y-audit-deep-dive/",
+    "./skills/performance-reliability-plan/"
+  ]
+}

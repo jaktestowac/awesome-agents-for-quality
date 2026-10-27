@@ -1,0 +1,34 @@
+{
+  "name": "awesome-agents-for-quality",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent skills, custom agents, rules, hooks and orchestration packs for testing and quality engineering, for GitHub Copilot, Claude Code and OpenAI Codex.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "check": "node scripts/build.js --check",
+    "validate": "node scripts/validate.js",
+    "lint": "node scripts/validate.js && node scripts/build.js --check"
+  },
+  "author": "jaktestowac.pl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaktestowac/awesome-agents-for-quality.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "agent-skills",
+    "github-copilot",
+    "claude-code",
+    "codex",
+    "testing",
+    "quality-engineering",
+    "test-automation",
+    "playwright"
+  ],
+  "devDependencies": {
+    "yaml": "2.9.1"
+  }
+}

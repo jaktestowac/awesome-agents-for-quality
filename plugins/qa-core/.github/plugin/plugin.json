@@ -1,0 +1,48 @@
+{
+  "name": "qa-core",
+  "version": "0.1.0",
+  "description": "Test design, planning, exploratory testing, requirements traceability and bug reporting.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "quality-engineering",
+    "core"
+  ],
+  "agents": [
+    "./.github/agents/"
+  ],
+  "skills": [
+    "./skills/designing-functional-tests/",
+    "./skills/designing-test-data/",
+    "./skills/handling-sensitive-test-data/",
+    "./skills/planning-exploratory-testing/",
+    "./skills/requirements-test-coverage-mapper/",
+    "./skills/tracing-requirements-to-code/",
+    "./skills/verifying-acceptance-criteria/",
+    "./skills/reporting-bugs/",
+    "./skills/communicating-quality-findings/",
+    "./skills/documenting-test-suites/",
+    "./skills/prd-generator/",
+    "./skills/create-test-plan/",
+    "./skills/test-plan-basic/",
+    "./skills/qa-strategy/",
+    "./skills/review-requirements/",
+    "./skills/regression-scope/",
+    "./skills/manual-test-cases/",
+    "./skills/derive-test-cases-from-code/",
+    "./skills/generate-gherkin-scenarios/",
+    "./skills/generate-exploratory-charters/",
+    "./skills/generate-test-data/",
+    "./skills/map-requirements-coverage/",
+    "./skills/verify-acceptance-criteria/",
+    "./skills/bug-report/",
+    "./skills/explain-code/",
+    "./skills/edge-case-scenario-generator/"
+  ]
+}

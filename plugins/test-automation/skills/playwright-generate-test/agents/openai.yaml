@@ -1,0 +1,4 @@
+interface:
+  display_name: Generate tests based on a scenario using Playwright MCP
+policy:
+  allow_implicit_invocation: false

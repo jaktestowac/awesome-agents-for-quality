@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "command": "bash scripts/print-tool-info.sh",
+        "windows": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts\\print-tool-info.ps1",
+        "cwd": ".github/hooks/print-tool-info",
+        "timeoutSec": 10,
+        "comment": "Print tool usage information before executing"
+      }
+    ]
+  }
+}

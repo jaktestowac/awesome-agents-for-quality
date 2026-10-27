@@ -1,0 +1,4 @@
+interface:
+  display_name: Test LLM guardrails and injection resistance
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: Scope and gate this change
+policy:
+  allow_implicit_invocation: false

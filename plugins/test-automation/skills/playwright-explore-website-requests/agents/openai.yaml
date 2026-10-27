@@ -1,0 +1,4 @@
+interface:
+  display_name: Explore a website and gather network requests using Playwright MCP
+policy:
+  allow_implicit_invocation: false

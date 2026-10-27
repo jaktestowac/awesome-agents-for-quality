@@ -1,0 +1,21 @@
+{
+  "name": "plan-explore-review-commit",
+  "version": "0.1.0",
+  "description": "A full delivery pipeline: a planner and an orchestrator drive architect, researcher, explorer, implementer, QA strategy, security, code review and docs subagents through small test-first phases, with a review and a user-approved commit after each. Pick it for multi-phase feature or refactoring work; for analysis and planning only, use orchestration-basics.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "orchestration",
+    "subagents",
+    "testing",
+    "quality-engineering"
+  ],
+  "agents": [
+    "./.github/agents/"
+  ]
+}

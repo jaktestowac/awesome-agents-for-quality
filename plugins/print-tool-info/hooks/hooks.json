@@ -1,0 +1,17 @@
+{
+  "description": "Shows the tool name, arguments, time and working directory before each tool call.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/print-tool-info.cjs"],
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

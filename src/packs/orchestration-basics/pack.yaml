@@ -1,0 +1,4 @@
+name: orchestration-basics
+title: Orchestration basics
+description: "A minimal orchestrator with three read-mostly helpers (planner, explorer, analyst) that shows how to split analysis and planning across subagents to save context, with stop gates for the user. Start here to learn the pattern; it does not implement code. For a pipeline that also implements, reviews and commits, use plan-explore-review-commit."
+orchestrator: basics-orchestrator

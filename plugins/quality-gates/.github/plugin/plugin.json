@@ -1,0 +1,40 @@
+{
+  "name": "quality-gates",
+  "version": "0.1.0",
+  "description": "Quality contracts, change gates, waivers, release readiness, metrics and debt.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "quality-engineering",
+    "quality",
+    "gates"
+  ],
+  "agents": [
+    "./.github/agents/"
+  ],
+  "skills": [
+    "./skills/deriving-a-quality-contract/",
+    "./skills/governing-quality-waivers/",
+    "./skills/scoping-change-relevance/",
+    "./skills/recording-change-intent/",
+    "./skills/verifying-change-coverage/",
+    "./skills/analyzing-regression-scope/",
+    "./skills/generating-quality-gate-workflows/",
+    "./skills/assessing-release-readiness/",
+    "./skills/assessing-comprehension-debt/",
+    "./skills/attesting-manual-verification/",
+    "./skills/analyzing-quality-metrics/",
+    "./skills/tracking-quality-trends/",
+    "./skills/tech-debt-analysis/",
+    "./skills/derive-quality-contract/",
+    "./skills/scope-change-gate/",
+    "./skills/record-change-intent/",
+    "./skills/audit-quality-debt/"
+  ]
+}

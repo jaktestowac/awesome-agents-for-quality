@@ -1,0 +1,4 @@
+interface:
+  display_name: Generate test data
+policy:
+  allow_implicit_invocation: false

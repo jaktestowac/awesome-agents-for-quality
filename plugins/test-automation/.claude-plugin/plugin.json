@@ -1,0 +1,18 @@
+{
+  "name": "test-automation",
+  "version": "0.1.0",
+  "description": "Unit tests, TDD, Playwright, mocking, visual regression, migration and test code review.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "quality-engineering",
+    "test",
+    "automation"
+  ]
+}

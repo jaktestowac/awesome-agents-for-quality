@@ -1,0 +1,49 @@
+{
+  "name": "test-automation",
+  "version": "0.1.0",
+  "description": "Unit tests, TDD, Playwright, mocking, visual regression, migration and test code review.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "quality-engineering",
+    "test",
+    "automation"
+  ],
+  "agents": [
+    "./.github/agents/"
+  ],
+  "skills": [
+    "./skills/writing-unit-tests/",
+    "./skills/writing-unit-tests-quick/",
+    "./skills/test-driven-development/",
+    "./skills/test-driven-development-quick/",
+    "./skills/mocking-network-and-time/",
+    "./skills/migrating-tests-to-playwright/",
+    "./skills/running-visual-regression-tests/",
+    "./skills/stabilizing-flaky-tests/",
+    "./skills/diagnosing-test-failures/",
+    "./skills/automating-ci-test-pipelines/",
+    "./skills/designing-test-automation-architecture/",
+    "./skills/unslop-tests/",
+    "./skills/code-review/",
+    "./skills/code-review-advanced/",
+    "./skills/static-code-analysis-typescript/",
+    "./skills/fix-tests/",
+    "./skills/explain-test-failure/",
+    "./skills/analyze-test-results/",
+    "./skills/stabilize-flaky-tests/",
+    "./skills/test-generator/",
+    "./skills/playwright-generate-test/",
+    "./skills/playwright-explore-website/",
+    "./skills/playwright-explore-website-requests/",
+    "./skills/refactor-to-page-objects/",
+    "./skills/migrate-tests-to-playwright/",
+    "./skills/tech-debt-audit/"
+  ]
+}

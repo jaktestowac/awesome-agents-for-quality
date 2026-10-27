@@ -1,0 +1,4 @@
+interface:
+  display_name: A11y webpage audit (single URL)
+policy:
+  allow_implicit_invocation: false

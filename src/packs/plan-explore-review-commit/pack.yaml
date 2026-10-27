@@ -1,0 +1,4 @@
+name: plan-explore-review-commit
+title: Plan, explore, review, commit
+description: "A full delivery pipeline: a planner and an orchestrator drive architect, researcher, explorer, implementer, QA strategy, security, code review and docs subagents through small test-first phases, with a review and a user-approved commit after each. Pick it for multi-phase feature or refactoring work; for analysis and planning only, use orchestration-basics."
+orchestrator: perc-orchestrator

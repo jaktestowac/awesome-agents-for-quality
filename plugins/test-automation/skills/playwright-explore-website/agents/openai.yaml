@@ -1,0 +1,4 @@
+interface:
+  display_name: Explore a website and propose test cases
+policy:
+  allow_implicit_invocation: false

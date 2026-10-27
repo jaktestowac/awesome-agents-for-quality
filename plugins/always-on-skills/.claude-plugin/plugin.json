@@ -1,0 +1,17 @@
+{
+  "name": "always-on-skills",
+  "version": "0.1.0",
+  "description": "Keeps always-apply skill invariants, such as unslop-tests, in force for the whole session, and restates the relevant one after each edit to a file in its scope.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "testing",
+    "quality-engineering"
+  ]
+}

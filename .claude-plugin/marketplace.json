@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jaktestowac",
+  "owner": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "metadata": {
+    "description": "Agent skills, custom agents, rules, hooks and orchestration packs for testing and quality engineering, for GitHub Copilot, Claude Code and OpenAI Codex.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "qa-core",
+      "source": "./plugins/qa-core",
+      "description": "Test design, planning, exploratory testing, requirements traceability and bug reporting.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "test-automation",
+      "source": "./plugins/test-automation",
+      "description": "Unit tests, TDD, Playwright, mocking, visual regression, migration and test code review.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "api-testing",
+      "source": "./plugins/api-testing",
+      "description": "API test automation with Playwright and contract testing.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "non-functional-testing",
+      "source": "./plugins/non-functional-testing",
+      "description": "Accessibility, performance and load, and application security testing.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "ai-quality",
+      "source": "./plugins/ai-quality",
+      "description": "Testing LLM features, guardrails, groundedness and agent skills.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "quality-gates",
+      "source": "./plugins/quality-gates",
+      "description": "Quality contracts, change gates, waivers, release readiness, metrics and debt.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "authoring",
+      "source": "./plugins/authoring",
+      "description": "Creating skills, custom agents, commands and prompt files, instructions and rules, hooks, plugins and orchestration packs for GitHub Copilot, Claude Code and OpenAI Codex, plus auditing a whole collection. Each covers this repository's single-source format and your own project's native files.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "orchestration-basics",
+      "source": "./plugins/orchestration-basics",
+      "description": "A minimal orchestrator with three read-mostly helpers (planner, explorer, analyst) that shows how to split analysis and planning across subagents to save context, with stop gates for the user. Start here to learn the pattern; it does not implement code. For a pipeline that also implements, reviews and commits, use plan-explore-review-commit.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "plan-explore-review-commit",
+      "source": "./plugins/plan-explore-review-commit",
+      "description": "A full delivery pipeline: a planner and an orchestrator drive architect, researcher, explorer, implementer, QA strategy, security, code review and docs subagents through small test-first phases, with a review and a user-approved commit after each. Pick it for multi-phase feature or refactoring work; for analysis and planning only, use orchestration-basics.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "ui-api-automation",
+      "source": "./plugins/ui-api-automation",
+      "description": "Explores an application (frontend through Playwright MCP, backend through its OpenAPI spec), plans coverage, implements UI and API tests, reviews them and runs them to a verified result. Pick it for a full suite with a review and verification stage; for a small first batch of tests, or a project that still needs a test framework set up, use ui-api-automation-minimal.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "ui-api-automation-minimal",
+      "source": "./plugins/ui-api-automation-minimal",
+      "description": "A compact UI + API pack with four helpers: explore (OpenAPI and/or Playwright MCP), plan, set up a test framework if none exists, and implement tests, each returning the same handoff packet. Pick it for a small first batch of tests or a project without a test framework; for a full suite with review and verification stages, use ui-api-automation.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "always-on-skills",
+      "source": "./plugins/always-on-skills",
+      "description": "Keeps always-apply skill invariants, such as unslop-tests, in force for the whole session, and restates the relevant one after each edit to a file in its scope.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "print-tool-info",
+      "source": "./plugins/print-tool-info",
+      "description": "Shows the tool name, arguments, time and working directory before each tool call. Useful for learning how hooks work and for debugging what an agent does.",
+      "version": "0.1.0"
+    }
+  ]
+}

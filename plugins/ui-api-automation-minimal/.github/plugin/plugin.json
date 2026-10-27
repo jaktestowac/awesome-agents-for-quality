@@ -1,0 +1,21 @@
+{
+  "name": "ui-api-automation-minimal",
+  "version": "0.1.0",
+  "description": "A compact UI + API pack with four helpers: explore (OpenAPI and/or Playwright MCP), plan, set up a test framework if none exists, and implement tests, each returning the same handoff packet. Pick it for a small first batch of tests or a project without a test framework; for a full suite with review and verification stages, use ui-api-automation.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "orchestration",
+    "subagents",
+    "testing",
+    "quality-engineering"
+  ],
+  "agents": [
+    "./.github/agents/"
+  ]
+}

@@ -1,0 +1,4 @@
+name: ui-api-automation
+title: UI + API test automation
+description: "Explores an application (frontend through Playwright MCP, backend through its OpenAPI spec), plans coverage, implements UI and API tests, reviews them and runs them to a verified result. Pick it for a full suite with a review and verification stage; for a small first batch of tests, or a project that still needs a test framework set up, use ui-api-automation-minimal."
+orchestrator: uiapi-orchestrator

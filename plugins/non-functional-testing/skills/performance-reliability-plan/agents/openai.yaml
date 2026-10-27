@@ -1,0 +1,4 @@
+interface:
+  display_name: Performance and reliability test planner
+policy:
+  allow_implicit_invocation: false

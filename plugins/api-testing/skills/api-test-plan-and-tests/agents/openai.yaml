@@ -1,0 +1,4 @@
+interface:
+  display_name: API test plan and test generator
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: Audit collection health
+policy:
+  allow_implicit_invocation: false

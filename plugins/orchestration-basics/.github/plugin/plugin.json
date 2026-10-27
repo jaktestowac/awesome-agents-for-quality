@@ -1,0 +1,21 @@
+{
+  "name": "orchestration-basics",
+  "version": "0.1.0",
+  "description": "A minimal orchestrator with three read-mostly helpers (planner, explorer, analyst) that shows how to split analysis and planning across subagents to save context, with stop gates for the user. Start here to learn the pattern; it does not implement code. For a pipeline that also implements, reviews and commits, use plan-explore-review-commit.",
+  "author": {
+    "name": "jaktestowac.pl",
+    "url": "https://jaktestowac.pl"
+  },
+  "homepage": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "repository": "https://github.com/jaktestowac/awesome-agents-for-quality",
+  "license": "MIT",
+  "keywords": [
+    "orchestration",
+    "subagents",
+    "testing",
+    "quality-engineering"
+  ],
+  "agents": [
+    "./.github/agents/"
+  ]
+}

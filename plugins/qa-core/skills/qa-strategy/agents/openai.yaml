@@ -1,0 +1,4 @@
+interface:
+  display_name: QA strategy - edge cases, security and attack scenarios
+policy:
+  allow_implicit_invocation: false

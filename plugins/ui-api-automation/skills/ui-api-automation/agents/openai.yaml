@@ -1,0 +1,4 @@
+interface:
+  display_name: UI + API test automation
+policy:
+  allow_implicit_invocation: false

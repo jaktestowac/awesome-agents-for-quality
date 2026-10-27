@@ -1,0 +1,5 @@
+# Generated plugin trees must be byte-identical on every OS.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary

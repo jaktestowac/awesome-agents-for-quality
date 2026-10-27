@@ -1,0 +1,4 @@
+interface:
+  display_name: Map requirements to test coverage
+policy:
+  allow_implicit_invocation: false

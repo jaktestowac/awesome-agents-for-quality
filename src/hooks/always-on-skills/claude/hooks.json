@@ -1,0 +1,30 @@
+{
+  "description": "Keeps always-apply skill invariants in force: adds them to the context at session start and restates the relevant one after each edit to a file in its scope.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/always-on-skills.cjs", "session"],
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/always-on-skills.cjs", "post-tool"],
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
